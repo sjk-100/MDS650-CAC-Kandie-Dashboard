@@ -38,19 +38,19 @@ def load_model():
 
 @st.cache_data
 def load_scenarios():
-    return pd.read_csv(os.path.join("outputs", "monte_carlo_scenarios.csv"))
+    return pd.read_csv(os.path.join("monte_carlo_scenarios.csv"))
 
 @st.cache_data
 def load_sensitivity():
-    return pd.read_csv(os.path.join("outputs", "sensitivity_analysis.csv"))
+    return pd.read_csv(os.path.join("sensitivity_analysis.csv"))
 
 @st.cache_data
 def load_model_eval():
-    return pd.read_csv(os.path.join("outputs", "model_evaluation.csv"))
+    return pd.read_csv(os.path.join("model_evaluation.csv"))
 
 @st.cache_data
 def load_allocation():
-    return pd.read_csv(os.path.join("outputs", "optimal_channel_allocation.csv"))
+    return pd.read_csv(os.path.join("optimal_channel_allocation.csv"))
 
 try:
     model       = load_model()
