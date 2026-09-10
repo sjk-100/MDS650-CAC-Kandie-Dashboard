@@ -33,7 +33,7 @@ CHANNEL_COLORS = {"Meta": "#1B3A6B", "Google": "#2E6E62", "TikTok": "#E8A838"}
 # ── Load artefacts ────────────────────────────────────────────────────────────
 @st.cache_resource
 def load_model():
-    path = os.path.join("outputs", "best_cac_model.joblib")
+    path = os.path.join("best_cac_model.joblib")
     return joblib.load(path)
 
 @st.cache_data
