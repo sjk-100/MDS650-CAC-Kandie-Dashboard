@@ -180,7 +180,7 @@ with col_t:
     st.markdown(f"""<h1 style='font-size:1.9rem;font-weight:800;color:{NAVY};margin:0;letter-spacing:-0.02em;'>
       Channel Mix Optimiser</h1>
       <p style='color:{GREY};font-size:0.9rem;margin:0.3rem 0 0;'>
-      Bayesian simulation · Random Forest prediction · Differential Evolution optimisation · Australian DTC health supplement market</p>""",unsafe_allow_html=True)
+      Australian DTC health supplement market</p>""",unsafe_allow_html=True)
 with col_b:
     st.markdown(f"""<div style='text-align:right;padding-top:0.5rem;'>
       <span style='background:#E0F2EC;color:#1A5C3A;border-radius:6px;padding:0.2rem 0.7rem;font-size:0.78rem;font-weight:600;'>● Live</span>
